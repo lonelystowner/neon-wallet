@@ -1,0 +1,106 @@
+@import '../../../styles/variables';
+
+.modalContainer {
+  flex: 1;
+  margin: 1rem;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  height: 27rem;
+  width: 100%;
+  background: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: black 1px solid;
+}
+
+.contentHeader {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.scrollContainer {
+  height: 22.5rem;
+  overflow-y: auto;
+}
+
+.nodeListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  .checkBox {
+    margin-right: 0.75rem;
+  }
+}
+
+.votingInfo {
+  text-align: justify;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.leftCol {
+  flex: 2;
+}
+
+.rightCol {
+  flex: 1;
+}
+
+.titleRow {
+  width: 98.5%;
+  display: flex;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.title {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.submitButton {
+  padding: 0.5rem 4rem;
+}
+
+.cancelButton {
+  padding: 0.5rem 4rem;
+}
+
+.publickey {
+  font-size: 10.5px;
+}
+
+.addressList {
+  list-style-type: square;
+  height: 20rem;
+  overflow-y: auto;
+  width: 99%;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.confirmationView {
+  margin: 2rem;
+  font-size: 1.2rem;
+}
